@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Donation</title>
+    <style>
+        /* CSS Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* Uses native system fonts for a clean, modern look without external requests */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfcfc;
+            color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Container Styling */
+        .thank-you-container {
+            max-width: 500px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Typography */
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 24px;
+            color: #2c2c2c;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        p {
+            font-size: 1.05rem;
+            color: #555555;
+            margin-bottom: 32px;
+        }
+
+        .receipt-note {
+            font-size: 0.9rem;
+            color: #888888;
+            margin-bottom: 40px;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #404040;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 600px) {
+            .thank-you-container {
+                padding: 24px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-container">
+        <!-- Minimal Checkmark Icon -->
+        <div class="icon">✓</div>
+        
+        <h1>Děkuji!❤️</h1>
+        
+        <p>
+          Your donation was succesfull Thank You!
+        </p>
+        
+        <div class="receipt-note">
+            Všechny výdělky jdou na další projekty + maintanance současných projektů
+        </div>
+
+        
+    </div>
+
+</body>
+</html>
